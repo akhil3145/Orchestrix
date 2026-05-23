@@ -111,6 +111,85 @@ def workflow_events() -> List[Dict[str, str]]:
     ]
 
 
+def production_backlog() -> List[Dict[str, str]]:
+    return [
+        {
+            "area": "Database",
+            "status": "Next",
+            "priority": "P0",
+            "summary": "Move employee and candidate records from CSV/SQLite to PostgreSQL.",
+            "next_action": "Add SQLAlchemy models, Alembic migrations, and seed data.",
+        },
+        {
+            "area": "Authentication",
+            "status": "Queued",
+            "priority": "P0",
+            "summary": "Replace demo auth with production OIDC, refresh tokens, and RBAC enforcement.",
+            "next_action": "Create auth service boundaries and role policies for employee, HR, and admin.",
+        },
+        {
+            "area": "Multi-tenancy",
+            "status": "Queued",
+            "priority": "P0",
+            "summary": "Add organizations, workspaces, tenant-scoped data access, and invitations.",
+            "next_action": "Introduce tenant IDs across database models and request context.",
+        },
+        {
+            "area": "RAG",
+            "status": "Queued",
+            "priority": "P1",
+            "summary": "Add source-cited policy answers, document ingestion status, and retrieval evaluation.",
+            "next_action": "Create ingestion jobs and citation metadata for every policy chunk.",
+        },
+        {
+            "area": "Workflow Engine",
+            "status": "Queued",
+            "priority": "P1",
+            "summary": "Move resume screening, document ingestion, and notifications into background jobs.",
+            "next_action": "Add Redis plus RQ or Celery worker process.",
+        },
+        {
+            "area": "Realtime Assistant",
+            "status": "Queued",
+            "priority": "P1",
+            "summary": "Add token streaming and assistant run state for a faster conversational experience.",
+            "next_action": "Introduce FastAPI WebSocket endpoint or Streamlit streaming adapter.",
+        },
+        {
+            "area": "Security",
+            "status": "Queued",
+            "priority": "P0",
+            "summary": "Harden uploads, secrets, audit logs, and tool permissions.",
+            "next_action": "Add upload size/type validation, malware scanning hook, and per-role tool access.",
+        },
+        {
+            "area": "Observability",
+            "status": "Queued",
+            "priority": "P2",
+            "summary": "Add production-grade error tracking, structured logs, and uptime checks.",
+            "next_action": "Wire Sentry, JSON logs, and dashboard-specific metrics.",
+        },
+        {
+            "area": "Testing",
+            "status": "Queued",
+            "priority": "P1",
+            "summary": "Broaden confidence with E2E, security, load, and AI response validation tests.",
+            "next_action": "Add Playwright smoke tests and resume-analysis golden cases.",
+        },
+    ]
+
+
+def build_progress() -> Dict[str, int]:
+    completed = 4
+    backlog = production_backlog()
+    return {
+        "completed": completed,
+        "remaining": len(backlog),
+        "total": completed + len(backlog),
+        "percent": round(100 * completed / (completed + len(backlog))),
+    }
+
+
 def knowledge_recommendations(query: str = "") -> List[Dict[str, str]]:
     q = query.lower()
     policies = [

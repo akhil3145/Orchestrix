@@ -1,0 +1,92 @@
+2026-05-23 15:41:24.748 | INFO     | app.backend:<module>:82 - Prometheus metrics enabled
+2026-05-23 15:41:31.145 | INFO     | app.backend:detect_and_translate:134 - Translated from fi to en
+2026-05-23 15:41:37.404 | WARNING  | app.backend:get_sentiment_pipeline:102 - Could not load sentiment pipeline: [WinError 1114] A dynamic link library (DLL) initialization routine failed. Error loading "c:\Users\hp\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\lib\c10.dll" or one of its dependencies.
+2026-05-23 15:41:40.301 | INFO     | app.backend:audit_log:435 - AUDIT | {"timestamp": "2026-05-23T10:11:40.301117+00:00", "user": "Alexander Verdad", "query_hash": "2cf24dba5fb0a30e", "query_len": 5, "model": "local", "sentiment_label": "UNKNOWN", "sentiment_score": 0.5, "response_len": 79}
+2026-05-23 15:41:40.302 | INFO     | app.backend:get_response:491 - Local answer used
+2026-05-23 15:41:43.681 | WARNING  | app.backend:get_sentiment_pipeline:102 - Could not load sentiment pipeline: [WinError 1114] A dynamic link library (DLL) initialization routine failed. Error loading "c:\Users\hp\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\lib\c10.dll" or one of its dependencies.
+2026-05-23 15:41:43.687 | WARNING  | app.backend:local_answer:159 - Local answer cannot read data: [Errno 2] No such file or directory: 'employee_data.csv'
+2026-05-23 15:41:43.688 | ERROR    | app.backend:get_response:541 - Agent error: ANTHROPIC_API_KEY missing
+2026-05-23 15:41:43.688 | WARNING  | app.backend:local_answer:159 - Local answer cannot read data: [Errno 2] No such file or directory: 'employee_data.csv'
+2026-05-23 15:41:48.454 | WARNING  | app.backend:get_sentiment_pipeline:102 - Could not load sentiment pipeline: [WinError 1114] A dynamic link library (DLL) initialization routine failed. Error loading "c:\Users\hp\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\lib\c10.dll" or one of its dependencies.
+2026-05-23 15:41:48.457 | WARNING  | app.backend:local_answer:159 - Local answer cannot read data: [Errno 2] No such file or directory: 'employee_data.csv'
+2026-05-23 15:41:48.458 | ERROR    | app.backend:get_response:541 - Agent error: ANTHROPIC_API_KEY missing
+2026-05-23 15:41:48.460 | WARNING  | app.backend:local_answer:159 - Local answer cannot read data: [Errno 2] No such file or directory: 'employee_data.csv'
+2026-05-23 15:43:03.079 | INFO     | app.backend:<module>:82 - Prometheus metrics enabled
+2026-05-23 15:43:05.971 | INFO     | app.backend:detect_and_translate:134 - Translated from fi to en
+2026-05-23 15:43:08.610 | WARNING  | app.backend:get_sentiment_pipeline:102 - Could not load sentiment pipeline: [WinError 1114] A dynamic link library (DLL) initialization routine failed. Error loading "c:\Users\hp\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\lib\c10.dll" or one of its dependencies.
+2026-05-23 15:43:09.384 | INFO     | app.backend:audit_log:435 - AUDIT | {"timestamp": "2026-05-23T10:13:09.383987+00:00", "user": "Alexander Verdad", "query_hash": "2cf24dba5fb0a30e", "query_len": 5, "model": "local", "sentiment_label": "UNKNOWN", "sentiment_score": 0.5, "response_len": 79}
+2026-05-23 15:43:09.384 | INFO     | app.backend:get_response:491 - Local answer used
+2026-05-23 15:43:12.068 | WARNING  | app.backend:get_sentiment_pipeline:102 - Could not load sentiment pipeline: [WinError 1114] A dynamic link library (DLL) initialization routine failed. Error loading "c:\Users\hp\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\lib\c10.dll" or one of its dependencies.
+2026-05-23 15:43:12.072 | WARNING  | app.backend:local_answer:159 - Local answer cannot read data: [Errno 2] No such file or directory: 'employee_data.csv'
+2026-05-23 15:43:12.072 | ERROR    | app.backend:get_response:541 - Agent error: ANTHROPIC_API_KEY missing
+2026-05-23 15:43:12.074 | WARNING  | app.backend:local_answer:159 - Local answer cannot read data: [Errno 2] No such file or directory: 'employee_data.csv'
+2026-05-23 15:43:14.780 | WARNING  | app.backend:get_sentiment_pipeline:102 - Could not load sentiment pipeline: [WinError 1114] A dynamic link library (DLL) initialization routine failed. Error loading "c:\Users\hp\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\lib\c10.dll" or one of its dependencies.
+2026-05-23 15:43:14.782 | WARNING  | app.backend:local_answer:159 - Local answer cannot read data: [Errno 2] No such file or directory: 'employee_data.csv'
+2026-05-23 15:43:14.782 | ERROR    | app.backend:get_response:541 - Agent error: ANTHROPIC_API_KEY missing
+2026-05-23 15:43:14.782 | WARNING  | app.backend:local_answer:159 - Local answer cannot read data: [Errno 2] No such file or directory: 'employee_data.csv'
+2026-05-23 15:43:41.659 | INFO     | app.backend:<module>:82 - Prometheus metrics enabled
+2026-05-23 15:43:44.134 | INFO     | app.backend:detect_and_translate:134 - Translated from fi to en
+2026-05-23 15:43:47.184 | WARNING  | app.backend:get_sentiment_pipeline:102 - Could not load sentiment pipeline: [WinError 1114] A dynamic link library (DLL) initialization routine failed. Error loading "c:\Users\hp\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\lib\c10.dll" or one of its dependencies.
+2026-05-23 15:43:48.288 | INFO     | app.backend:audit_log:435 - AUDIT | {"timestamp": "2026-05-23T10:13:48.287798+00:00", "user": "Alexander Verdad", "query_hash": "2cf24dba5fb0a30e", "query_len": 5, "model": "local", "sentiment_label": "UNKNOWN", "sentiment_score": 0.5, "response_len": 79}
+2026-05-23 15:43:48.288 | INFO     | app.backend:get_response:491 - Local answer used
+2026-05-23 15:43:51.617 | WARNING  | app.backend:get_sentiment_pipeline:102 - Could not load sentiment pipeline: [WinError 1114] A dynamic link library (DLL) initialization routine failed. Error loading "c:\Users\hp\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\lib\c10.dll" or one of its dependencies.
+2026-05-23 15:43:51.668 | INFO     | app.backend:audit_log:435 - AUDIT | {"timestamp": "2026-05-23T10:13:51.667970+00:00", "user": "Alexander Verdad", "query_hash": "b5763a9f4d7914ce", "query_len": 21, "model": "local", "sentiment_label": "UNKNOWN", "sentiment_score": 0.5, "response_len": 47}
+2026-05-23 15:43:51.668 | INFO     | app.backend:get_response:491 - Local answer used
+2026-05-23 15:43:56.330 | WARNING  | app.backend:get_sentiment_pipeline:102 - Could not load sentiment pipeline: [WinError 1114] A dynamic link library (DLL) initialization routine failed. Error loading "c:\Users\hp\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\lib\c10.dll" or one of its dependencies.
+2026-05-23 15:43:56.344 | INFO     | app.backend:audit_log:435 - AUDIT | {"timestamp": "2026-05-23T10:13:56.344578+00:00", "user": "Alexander Verdad", "query_hash": "e68b06f25c3743c4", "query_len": 33, "model": "local", "sentiment_label": "UNKNOWN", "sentiment_score": 0.5, "response_len": 48}
+2026-05-23 15:43:56.345 | INFO     | app.backend:get_response:491 - Local answer used
+2026-05-23 15:56:42.280 | INFO     | app.backend:<module>:82 - Prometheus metrics enabled
+2026-05-23 15:56:44.969 | INFO     | app.backend:detect_and_translate:134 - Translated from nl to en
+2026-05-23 15:56:55.727 | WARNING  | app.backend:get_sentiment_pipeline:102 - Could not load sentiment pipeline: [WinError 1114] A dynamic link library (DLL) initialization routine failed. Error loading "c:\Users\hp\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\lib\c10.dll" or one of its dependencies.
+2026-05-23 15:56:58.057 | INFO     | app.backend:audit_log:430 - AUDIT | {"timestamp": "2026-05-23T10:26:58.056813+00:00", "user": "Alexander Verdad", "query_hash": "2cf24dba5fb0a30e", "query_len": 5, "model": "local", "sentiment_label": "UNKNOWN", "sentiment_score": 0.5, "response_len": 81}
+2026-05-23 15:56:58.058 | INFO     | app.backend:get_response:486 - Local answer used
+2026-05-23 15:57:02.602 | WARNING  | app.backend:get_sentiment_pipeline:102 - Could not load sentiment pipeline: [WinError 1114] A dynamic link library (DLL) initialization routine failed. Error loading "c:\Users\hp\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\lib\c10.dll" or one of its dependencies.
+2026-05-23 15:57:02.630 | INFO     | app.backend:audit_log:430 - AUDIT | {"timestamp": "2026-05-23T10:27:02.630191+00:00", "user": "Alexander Verdad", "query_hash": "b5763a9f4d7914ce", "query_len": 21, "model": "local", "sentiment_label": "UNKNOWN", "sentiment_score": 0.5, "response_len": 47}
+2026-05-23 15:57:02.630 | INFO     | app.backend:get_response:486 - Local answer used
+2026-05-23 15:57:05.239 | WARNING  | app.backend:get_sentiment_pipeline:102 - Could not load sentiment pipeline: [WinError 1114] A dynamic link library (DLL) initialization routine failed. Error loading "c:\Users\hp\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\lib\c10.dll" or one of its dependencies.
+2026-05-23 15:57:05.250 | INFO     | app.backend:audit_log:430 - AUDIT | {"timestamp": "2026-05-23T10:27:05.250695+00:00", "user": "Alexander Verdad", "query_hash": "e68b06f25c3743c4", "query_len": 33, "model": "local", "sentiment_label": "UNKNOWN", "sentiment_score": 0.5, "response_len": 48}
+2026-05-23 15:57:05.251 | INFO     | app.backend:get_response:486 - Local answer used
+2026-05-23 15:57:17.227 | INFO     | app.backend:<module>:82 - Prometheus metrics enabled
+2026-05-23 15:57:23.073 | WARNING  | app.backend:get_sentiment_pipeline:102 - Could not load sentiment pipeline: [WinError 1114] A dynamic link library (DLL) initialization routine failed. Error loading "c:\Users\hp\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\lib\c10.dll" or one of its dependencies.
+2026-05-23 15:57:23.087 | ERROR    | app.backend:get_response:536 - Agent error: GEMINI_API_KEY missing
+2026-05-23 15:57:45.189 | INFO     | app.backend:<module>:82 - Prometheus metrics enabled
+2026-05-23 15:57:48.208 | ERROR    | app.backend:_gemini_direct_response:375 - Error calling Gemini API: GenerativeModel.generate_content() got an unexpected keyword argument 'system_instruction'
+Traceback (most recent call last):
+
+  File "<string>", line 9, in <module>
+
+> File "c:\Users\hp\hr-agent-pro-main\Orchestrix\app\backend.py", line 358, in _gemini_direct_response
+    response = model.generate_content(
+               │     └ <function GenerativeModel.generate_content at 0x000001C6A4B0D640>
+               └ genai.GenerativeModel(
+                     model_name='models/gemini-2.5-flash',
+                     generation_config={},
+                     safety_settings={},
+                     tools=...
+
+TypeError: GenerativeModel.generate_content() got an unexpected keyword argument 'system_instruction'
+2026-05-23 15:57:53.488 | WARNING  | app.backend:get_sentiment_pipeline:102 - Could not load sentiment pipeline: [WinError 1114] A dynamic link library (DLL) initialization routine failed. Error loading "c:\Users\hp\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\lib\c10.dll" or one of its dependencies.
+2026-05-23 15:57:53.504 | ERROR    | app.backend:_gemini_direct_response:375 - Error calling Gemini API: GenerativeModel.generate_content() got an unexpected keyword argument 'system_instruction'
+Traceback (most recent call last):
+
+  File "<string>", line 15, in <module>
+
+  File "c:\Users\hp\hr-agent-pro-main\Orchestrix\app\backend.py", line 502, in get_response
+    response_text = _gemini_direct_response(english_input, user)
+                    │                       │              └ 'Alexander Verdad'
+                    │                       └ "Explain the company's leave policies"
+                    └ <function _gemini_direct_response at 0x000001C6A1BAB1C0>
+
+> File "c:\Users\hp\hr-agent-pro-main\Orchestrix\app\backend.py", line 358, in _gemini_direct_response
+    response = model.generate_content(
+               │     └ <function GenerativeModel.generate_content at 0x000001C6A4B0D640>
+               └ genai.GenerativeModel(
+                     model_name='models/gemini-2.5-flash',
+                     generation_config={},
+                     safety_settings={},
+                     tools=...
+
+TypeError: GenerativeModel.generate_content() got an unexpected keyword argument 'system_instruction'
+2026-05-23 15:57:53.506 | WARNING  | app.backend:get_response:510 - LLM returned empty response (model=gemini). Attempting local fallback.
+2026-05-23 15:57:53.507 | INFO     | app.backend:audit_log:430 - AUDIT | {"timestamp": "2026-05-23T10:27:53.507322+00:00", "user": "Alexander Verdad", "query_hash": "e59680e739a40b27", "query_len": 36, "model": "gemini", "sentiment_label": "UNKNOWN", "sentiment_score": 0.5, "response_len": 0}
+2026-05-23 15:57:53.507 | INFO     | app.backend:get_response:578 - Response generated | model=gemini | lang=en | sentiment=UNKNOWN | elapsed=5.30s
